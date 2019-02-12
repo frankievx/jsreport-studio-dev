@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var path = require('path')
 var yargs = require('yargs')
-
+console.log("frankie's package")
 var argv = yargs.options({
   config: {
     type: 'string',
